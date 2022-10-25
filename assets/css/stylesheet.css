@@ -1,0 +1,203 @@
+/* FONTS */
+
+@font-face {
+  font-family: "Trip Sans";
+  src: url("TripSans-Medium.eot");
+  src: url("TripSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("TripSans-Medium.woff2") format("woff2"),
+    url("TripSans-Medium.woff") format("woff"),
+    url("TripSans-Medium.ttf") format("truetype"),
+    url("TripSans-Medium.svg#TripSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trip Sans";
+  src: url("TripSans-Regular.eot");
+  src: url("TripSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("TripSans-Regular.woff2") format("woff2"),
+    url("TripSans-Regular.woff") format("woff"),
+    url("TripSans-Regular.ttf") format("truetype"),
+    url("TripSans-Regular.svg#TripSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* GLOBAL RULES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Arial";
+}
+
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+/* TITLES  */
+
+h1 {
+  color: black;
+  font-size: 54px;
+  font-weight: 900;
+}
+
+h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+header img {
+  width: 188px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 16px;
+  width: 450px;
+  line-height: 42px;
+}
+
+header nav span {
+  padding: 3px;
+  color: black;
+}
+
+header a:link {
+  text-decoration: none;
+}
+
+header a:visited {
+  color: black;
+}
+
+header a:hover {
+  background-color: #333333;
+  border-radius: 40%;
+}
+
+header button {
+  background-color: black;
+  color: white;
+  border-radius: 40%;
+}
+
+header button:hover {
+  cursor: pointer;
+}
+
+/* MAIN */
+
+.above-img {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+main h1 {
+  line-height: 65px;
+}
+
+h1 span {
+  color: #ff5d5d;
+  font-weight: 900;
+}
+
+.baseline {
+  background-color: red;
+  font-size: 14px;
+  line-height: 25px;
+  color: #333333;
+  font-weight: 100;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+main div .baseline a:visited {
+  color: #333333;
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+main .menu {
+  width: 181px;
+  height: 68px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+main nav div:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+
+main nav a:link {
+  text-decoration: none;
+}
+
+main nav a:visited {
+  color: black;
+}
+
+.img {
+  display: flex;
+}
+
+.img-left {
+  width: 654px;
+  height: 430px;
+  object-fit: cover;
+}
+
+.img-right {
+  width: 480px;
+  height: 214px;
+  object-fit: cover;
+}
+
+.path {
+  line-height: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.details {
+  width: 560px;
+  padding-top: 18px;
+}
+
+.details h2 {
+  line-height: 34px;
+  margin-bottom: 16px;
+}
+.details p {
+  color: #333333;
+}
