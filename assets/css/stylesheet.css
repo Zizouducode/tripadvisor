@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Trip Sans";
-  src: url("TripSans-Medium.eot");
-  src: url("TripSans-Medium.eot?#iefix") format("embedded-opentype"),
-    url("TripSans-Medium.woff2") format("woff2"),
-    url("TripSans-Medium.woff") format("woff"),
-    url("TripSans-Medium.ttf") format("truetype"),
-    url("TripSans-Medium.svg#TripSans-Medium") format("svg");
+  src: url("../fonts/TripSans-Medium.eot");
+  src: url("../fonts/TripSans-Medium.eot") format("embedded-opentype"),
+    url("../fonts/TripSans-Medium.woff2") format("woff2"),
+    url("../fonts/TripSans-Medium.woff") format("woff"),
+    url("../fonts/TripSans-Medium.ttf") format("truetype"),
+    url("../fonts/TripSans-Medium.svg") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: "Trip Sans";
-  src: url("TripSans-Regular.eot");
-  src: url("TripSans-Regular.eot?#iefix") format("embedded-opentype"),
-    url("TripSans-Regular.woff2") format("woff2"),
-    url("TripSans-Regular.woff") format("woff"),
-    url("TripSans-Regular.ttf") format("truetype"),
-    url("TripSans-Regular.svg#TripSans-Regular") format("svg");
+  src: url("../fonts/TripSans-Regular.eot");
+  src: url("../fonts/TripSans-Regular.eot") format("embedded-opentype"),
+    url("../fonts/TripSans-Medium.woff2") format("woff2"),
+    url("../fonts/TripSans-Medium.woff") format("woff"),
+    url("../fonts/TripSans-Regular.ttf") format("truetype"),
+    url("../fonts/TripSans-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -64,6 +64,10 @@ header {
   height: 60px;
 }
 
+.header {
+  margin-top: 20px;
+}
+
 header img {
   width: 188px;
 }
@@ -91,14 +95,16 @@ header a:visited {
 }
 
 header a:hover {
-  background-color: #333333;
-  border-radius: 40%;
+  background-color: lightgray;
+  border-radius: 20px;
 }
 
 header button {
+  height: 42px;
+  width: 148px;
   background-color: black;
   color: white;
-  border-radius: 40%;
+  border-radius: 35px;
 }
 
 header button:hover {
@@ -122,7 +128,6 @@ h1 span {
 }
 
 .baseline {
-  background-color: red;
   font-size: 14px;
   line-height: 25px;
   color: #333333;
@@ -149,6 +154,7 @@ main .menu {
   border-radius: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 8px;
 }
 
 main nav div:hover {
