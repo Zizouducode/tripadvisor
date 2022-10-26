@@ -2,6 +2,8 @@
 :root {
   --pink: #ff5d5d;
   --grey: #333333;
+  --font-trip-sans-medium: "Trip Sans Medium";
+  --font-trip-sans-regular: "Trip Sans Regular";
 }
 
 /* GLOBAL RULES */
@@ -12,7 +14,7 @@
 
 body {
   background-color: white;
-  font-family: "Trip Sans Medium";
+  font-family: var(--font-trip-sans-medium);
 }
 
 .container {
@@ -32,7 +34,6 @@ h2 {
   color: black;
   font-size: 28px;
   font-weight: 900;
-  margin-top: 30px;
 }
 
 /* Header */
@@ -235,8 +236,85 @@ main nav {
 }
 .details p {
   color: var(--grey);
-  background-color: #ff5d5d;
-  font-family: "Trip Sans Regular";
+  font-family: var(--font-trip-sans-regular);
   font-size: 20px;
   flex: 0.5;
+}
+
+/* SECTION MUST SEE */
+
+.must-see {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+.must-see-col {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.must-see-col-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.must-see-col-right {
+  display: flex;
+  flex: 3;
+  overflow-x: scroll;
+}
+
+.must-see-col-left-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.must-see-col-left-details {
+  font-size: 18px;
+  font-family: var(--font-trip-sans-regular);
+  margin-bottom: 15px;
+}
+.must-see-col-left-link {
+  font-size: 16px;
+  font-family: var(--font-trip-sans-regular);
+  margin-bottom: 7px;
+  text-decoration: underline;
+}
+
+.must-see-carroussel {
+  display: flex;
+  gap: 10px;
+}
+
+.must-see-carroussel-item {
+  background-color: white;
+  width: 270px;
+  border: 1px solid black;
+  flex-shrink: 0;
+}
+
+.must-see-carroussel-img {
+  height: 200px;
+  background-image: url(../img/eiffeltoren.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.must-see-carroussel-title {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.must-see-carroussel-reviews {
+  font-size: 12px;
+  line-height: 22px;
+}
+.must-see-carroussel-description {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--font-trip-sans-regular);
 }
