@@ -4,6 +4,8 @@
   --grey: #333333;
   --font-trip-sans-medium: "Trip Sans Medium";
   --font-trip-sans-regular: "Trip Sans Regular";
+  --body-background-color: white;
+  --footer-background-color: #faf1ed;
 }
 
 /* GLOBAL RULES */
@@ -13,7 +15,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: var(--body-background-color);
   font-family: var(--font-trip-sans-medium);
 }
 
@@ -341,4 +343,19 @@ main nav {
   font-size: 14px;
   line-height: 22px;
   font-family: var(--font-trip-sans-regular);
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  background-color: var(--footer-background-color);
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  gap: 10px;
+}
+
+.footer span {
+  font-weight: bolder;
 }
