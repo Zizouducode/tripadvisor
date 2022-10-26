@@ -86,22 +86,30 @@ header nav span {
   color: black;
 }
 
-header a:link {
+.header-link:link {
   text-decoration: none;
 }
 
-header a:visited {
+.header-link:visited {
   color: black;
 }
 
-header a:hover {
-  background-color: lightgray;
+.header-items {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
   border-radius: 20px;
+}
+
+.header-items:hover {
+  background-color: lightgrey;
 }
 
 header button {
   height: 42px;
   width: 148px;
+  margin-left: 10px;
   background-color: black;
   color: white;
   border-radius: 35px;
@@ -145,30 +153,34 @@ main nav {
   justify-content: space-between;
   flex: 1;
 }
-
-main .menu {
+.menu {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 15px;
+  border: 1px solid black;
   width: 181px;
   height: 68px;
-  margin-right: 10px;
-  border: 1px solid black;
+  margin-left: 10px;
   border-radius: 10px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 8px;
 }
 
-main nav div:hover {
-  background-color: black;
-  cursor: pointer;
-  color: white;
+.menu i {
+  display: flex;
+  margin-left: auto;
 }
 
-main nav a:link {
+.menu-link:link {
   text-decoration: none;
 }
 
-main nav a:visited {
+.menu-link:visited {
   color: black;
+}
+
+.menu:hover {
+  background-color: black;
+  color: white;
 }
 
 .img {
@@ -206,4 +218,7 @@ main nav a:visited {
 }
 .details p {
   color: #333333;
+  background-color: #ff5d5d;
+  font: "Georgia";
+  font-size: 20px;
 }
