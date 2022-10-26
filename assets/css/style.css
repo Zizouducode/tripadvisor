@@ -44,10 +44,11 @@ header {
   display: flex;
   justify-content: space-between;
   height: 60px;
-}
-
-.header {
-  margin-top: 100px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 20%;
 }
 
 header img {
@@ -103,7 +104,7 @@ header button:hover {
 /* MAIN */
 
 .above-img {
-  padding-top: 32px;
+  padding-top: 132px;
   padding-bottom: 24px;
 }
 
@@ -284,6 +285,12 @@ main nav {
   text-decoration: underline;
 }
 
+/* POUR MASQUER LA SCROLLBAR */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .must-see-carroussel {
   display: flex;
   gap: 15px;
@@ -355,8 +362,9 @@ main nav {
   align-items: center;
   height: 150px;
   gap: 10px;
+  font-weight: var(--font-trip-sans-regular);
 }
 
 .footer span {
-  font-weight: bolder;
+  font-weight: var(--font-trip-sans-medium);
 }
