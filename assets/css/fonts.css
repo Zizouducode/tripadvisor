@@ -1,7 +1,7 @@
 /* FONTS */
 
 @font-face {
-  font-family: "Trip Sans";
+  font-family: "Trip Sans Medium";
   src: url("../fonts/TripSans-Medium.eot");
   src: url("../fonts/TripSans-Medium.eot") format("embedded-opentype"),
     url("../fonts/TripSans-Medium.woff2") format("woff2"),
@@ -14,7 +14,7 @@
 }
 
 @font-face {
-  font-family: "Trip Sans";
+  font-family: "Trip Sans Regular";
   src: url("../fonts/TripSans-Regular.eot");
   src: url("../fonts/TripSans-Regular.eot") format("embedded-opentype"),
     url("../fonts/TripSans-Medium.woff2") format("woff2"),

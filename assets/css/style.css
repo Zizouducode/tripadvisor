@@ -1,3 +1,9 @@
+/* VARIABLES */
+:root {
+  --pink: #ff5d5d;
+  --grey: #333333;
+}
+
 /* GLOBAL RULES */
 
 * {
@@ -6,7 +12,7 @@
 
 body {
   background-color: white;
-  font-family: "Trip Sans";
+  font-family: "Trip Sans Medium";
 }
 
 .container {
@@ -26,6 +32,7 @@ h2 {
   color: black;
   font-size: 28px;
   font-weight: 900;
+  margin-top: 30px;
 }
 
 /* Header */
@@ -70,7 +77,6 @@ header nav span {
   height: 40px;
   align-items: center;
   border-radius: 20px;
-  /* background-color: red; */
 }
 
 .header-items:hover {
@@ -103,7 +109,7 @@ main h1 {
 }
 
 h1 span {
-  color: #ff5d5d;
+  color: var(--pink);
   font-weight: 900;
 }
 
@@ -111,13 +117,13 @@ h1 span {
   font-size: 14px;
   font-weight: 100;
   line-height: 25px;
-  color: #333333;
+  color: var(--grey);
   margin-top: 8px;
   margin-bottom: 32px;
 }
 
 main div .baseline a:visited {
-  color: #333333;
+  color: var(--grey);
 }
 
 main nav {
@@ -200,7 +206,7 @@ main nav {
   line-height: 16px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #333333;
+  color: var(--grey);
   font-size: 12px;
 }
 
@@ -209,7 +215,7 @@ main nav {
 }
 
 .path-link:visited {
-  color: #333333;
+  color: var(--grey);
 }
 
 .details {
@@ -228,9 +234,9 @@ main nav {
   display: flex;
 }
 .details p {
-  color: #333333;
+  color: var(--grey);
   background-color: #ff5d5d;
-  font: Arial;
+  font-family: "Trip Sans Regular";
   font-size: 20px;
   flex: 0.5;
 }
