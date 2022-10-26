@@ -40,15 +40,22 @@ h2 {
 
 /* Header */
 
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: white;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   height: 60px;
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: red;
   top: 0;
-  left: 20%;
 }
 
 header img {
