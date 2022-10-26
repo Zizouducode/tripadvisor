@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -251,7 +251,7 @@ main nav {
 .must-see-col {
   display: flex;
   margin-top: 35px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .must-see-col-left {
@@ -284,19 +284,43 @@ main nav {
 
 .must-see-carroussel {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .must-see-carroussel-item {
   background-color: white;
   width: 270px;
-  border: 1px solid black;
-  flex-shrink: 0;
+
+  position: relative;
 }
 
 .must-see-carroussel-img {
   height: 200px;
-  background-image: url(../img/eiffeltoren.jpg);
+  width: 100%;
+  object-fit: cover;
+}
+
+.traveller-choice {
+  width: 35px;
+  height: 50px;
+  background-color: #f2b203;
+  background-image: url(../img/TC_LL.svg);
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.like-button {
+  width: 40px;
+  height: 50px;
+  background-image: url(../img/heart.png);
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
