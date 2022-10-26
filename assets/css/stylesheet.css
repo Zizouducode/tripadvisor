@@ -65,7 +65,7 @@ header {
 }
 
 .header {
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 header img {
@@ -137,9 +137,9 @@ h1 span {
 
 .baseline {
   font-size: 14px;
+  font-weight: 100;
   line-height: 25px;
   color: #333333;
-  font-weight: 100;
   margin-top: 8px;
   margin-bottom: 32px;
 }
@@ -161,7 +161,7 @@ main nav {
   border: 1px solid black;
   width: 181px;
   height: 68px;
-  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 10px;
 }
 
@@ -207,6 +207,14 @@ main nav {
   font-size: 12px;
 }
 
+.path-link {
+  text-decoration: none;
+}
+
+.path-link:visited {
+  color: #333333;
+}
+
 .details {
   width: 560px;
   padding-top: 18px;
@@ -219,6 +227,6 @@ main nav {
 .details p {
   color: #333333;
   background-color: #ff5d5d;
-  font: "Georgia";
+  font: Arial;
   font-size: 20px;
 }
