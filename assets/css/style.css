@@ -490,8 +490,30 @@ main nav {
     overflow-x: scroll;
   }
 
-  .secondary-nav div {
-    flex: none;
-    flex-wrap: wrap;
+  .menu div {
+    margin-right: 20px;
+  }
+
+  .row {
+    width: auto;
+  }
+  .must-see-col {
+    display: block;
+  }
+  .details p {
+    font-size: 16px;
+  }
+
+  .must-see-carroussel-item {
+    width: auto;
+  }
+
+  .must-see-carroussel-img {
+    width: 550px;
+    height: 440px;
+  }
+
+  .traveller-choice {
+    top: 65%;
   }
 }
