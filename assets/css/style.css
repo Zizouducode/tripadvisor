@@ -147,6 +147,10 @@ main nav {
   gap: 10px;
 }
 
+.secondary-nav .hidden {
+  display: none;
+}
+
 .secondary-nav div {
   flex: 1;
 }
@@ -374,4 +378,30 @@ main nav {
 
 .footer span {
   font-weight: var(--font-trip-sans-medium);
+}
+
+/* MEDIA */
+
+@media (max-width: 1184px) {
+  body {
+    background-color: red;
+  }
+  .secondary-nav {
+    background-color: blue;
+  }
+
+  .secondary-nav div {
+    flex: none;
+    background-color: yellow;
+    flex-wrap: wrap;
+  }
+  .row {
+    background-color: yellow;
+    width: 24.125%;
+  }
+
+  .secondary-nav .hidden {
+    display: inline;
+    background-color: green;
+  }
 }
