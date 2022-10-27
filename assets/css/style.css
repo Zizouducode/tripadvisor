@@ -110,6 +110,10 @@ header button:hover {
   cursor: pointer;
 }
 
+.hidden-1024px {
+  display: none;
+}
+
 /* MAIN */
 
 .above-img {
@@ -147,6 +151,7 @@ main nav {
 .secondary-nav {
   display: flex;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .secondary-nav .hidden {
@@ -155,6 +160,10 @@ main nav {
 
 .secondary-nav div {
   flex: 1;
+}
+
+.hidden-1184px {
+  display: none;
 }
 
 .menu {
@@ -388,11 +397,15 @@ main nav {
 
 @media (max-width: 1184px) {
   body {
-    background-color: lavender;
+    /* background-color: lavender; */
   }
 
   .container {
     margin: 20px;
+  }
+
+  .hidden-1184px {
+    display: inline;
   }
 
   .secondary-nav {
@@ -414,7 +427,7 @@ main nav {
 
 @media (max-width: 1024px) {
   body {
-    background-color: lightpink;
+    /* background-color: lightpink; */
   }
   .container {
     margin: 15px;
@@ -451,7 +464,7 @@ main nav {
 
 @media (max-width: 768px) {
   body {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
   }
   .container {
     margin: 10px;
