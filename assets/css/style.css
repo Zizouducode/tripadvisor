@@ -53,6 +53,7 @@ header {
 .container-header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 1140px;
   margin: 0 auto;
   background-color: white;
@@ -300,10 +301,10 @@ main nav {
 }
 
 /* POUR MASQUER LA SCROLLBAR */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0;
   height: 0;
-}
+} */
 
 .must-see-carroussel {
   display: flex;
@@ -403,7 +404,7 @@ main nav {
     flex-wrap: wrap;
   }
   .row {
-    width: 24.125%;
+    width: 23.9%;
   }
 
   .img {
@@ -454,5 +455,43 @@ main nav {
   }
   .container {
     margin: 10px;
+  }
+
+  .not-hidden-768px {
+    display: flex;
+  }
+
+  .hidden-768px {
+    display: none;
+  }
+
+  .header img {
+    width: 130px;
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 15px;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+
+  .secondary-nav {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .secondary-nav div {
+    flex: none;
+    flex-wrap: wrap;
   }
 }
