@@ -94,7 +94,8 @@ header nav span {
   background-color: lightgrey;
 }
 
-header button {
+.a-button {
+  background-color: black;
   margin-left: 10px;
   font-size: 14px;
   background-color: black;
@@ -384,24 +385,51 @@ main nav {
 
 @media (max-width: 1184px) {
   body {
-    background-color: red;
+    background-color: lavender;
   }
   .secondary-nav {
-    background-color: blue;
+    flex-wrap: wrap;
   }
 
   .secondary-nav div {
     flex: none;
-    background-color: yellow;
     flex-wrap: wrap;
   }
   .row {
-    background-color: yellow;
     width: 24.125%;
   }
 
-  .secondary-nav .hidden {
-    display: inline;
-    background-color: green;
+  .img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: lightpink;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .container-header nav {
+    background-color: yellow;
+    width: 30%;
+  }
+
+  .header-items {
+    background-color: red;
+    width: 100%;
+  }
+  .a-button {
+    width: 145px;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border-radius: 35px;
+    border: none;
+    padding: 15px;
   }
 }
